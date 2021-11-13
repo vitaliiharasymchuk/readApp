@@ -2,6 +2,7 @@ const textArea = document.getElementById("areaText");
 const speedArea = document.getElementById("areaSpeed");
 const outputArea = document.getElementById("output");
 const btn = document.getElementById("btn");
+
 btn.addEventListener("click", start);
 function start() {
     if (speedArea.value == '' || isNaN(speedArea.value) || textArea.value == '') {
